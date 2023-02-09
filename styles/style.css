@@ -5,12 +5,13 @@
 }
 /* header style  */
 header {
-    width: 1600px;
+    width: 100%;
     height: 808px;
     display: flex;
     justify-content: end;
     align-items: center;
     background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
 }
 .banner-text {
     width: 525px;
@@ -22,7 +23,7 @@ header {
     font-size: 65px;
     font-weight: 700;
 }
-.bg-white {
+.contact-btn {
     background-color: white;
     border: 1px solid white;
     border-radius: 5px;
@@ -30,4 +31,32 @@ header {
     font-size: 20px;
     color: #005FAC;
 font-weight: 600;
+}
+main {
+    margin: 0px 230px;
+}
+.failure-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.half-width {
+    width: 50%;
+}
+.half-width img {
+    width: 100%;
+}
+.failure-details {
+    width: 416px;
+    height: 400px;
+}
+.half-width h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.half-width p ol{
+    color: #444343;
+
 }
