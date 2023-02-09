@@ -51,6 +51,14 @@ main {
     width: 416px;
     height: 400px;
 }
+.failure-details ul {
+    list-style: none;
+}
+.fa {
+    color: #16D887;
+    font-size: 20px;
+
+}
 .half-width h2 {
     font-size: 40px;
     font-weight: 800;
