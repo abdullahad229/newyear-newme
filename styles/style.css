@@ -36,9 +36,11 @@ header {
     color: #005FAC;
 font-weight: 600;
 }
+/* main part styles  */
 main {
     margin: 0px 230px;
 }
+/* failure section styles  */
 .failure-section {
     display: flex;
     align-items: center;
