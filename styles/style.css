@@ -1,17 +1,33 @@
+/* utilities  */
 *{
     font-family: 'Work Sans', sans-serif;
     margin: 0;
 }
+/* header style  */
 header {
+    width: 1600px;
+    height: 808px;
     display: flex;
     justify-content: end;
-    background-image: url("images/banner/banner3.png");
+    align-items: center;
+    background-image: url("../images/banner/banner3.png");
 }
 .banner-text {
     width: 525px;
+    margin-right: 230px;
+    color: white;
    text-align: end;
 }
 .heading {
     font-size: 65px;
     font-weight: 700;
+}
+.bg-white {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px 25px;
+    font-size: 20px;
+    color: #005FAC;
+font-weight: 600;
 }
